@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+* Jacob Buri
+* GameManager.cs
+* Assignment 6 - Factory Method
+* Handles all of the overarching conditions 
+*/
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;

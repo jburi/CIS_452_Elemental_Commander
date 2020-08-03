@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* EnemyFactory.cs
+* Assignment 6 - Factory Method
+* Factory to create enemies of a certain type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

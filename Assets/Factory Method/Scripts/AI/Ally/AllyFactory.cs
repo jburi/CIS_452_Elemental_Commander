@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* AllyFactory.cs
+* Assignment 6 - Factory Method
+* Factory to create allies of a certain type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,6 +1,11 @@
-﻿
-//Controlls Attacks and is the base class for components
-//Used in the Factories to change elemental attack
+﻿/*
+* Jacob Buri
+* AI.cs
+* Assignment 6 - Factory Method
+* - Concrete Product for the enemy and ally units
+* - Controlls unit's attacks and statisitcs
+*/
+
 
 using System.Collections;
 using System.Collections.Generic;

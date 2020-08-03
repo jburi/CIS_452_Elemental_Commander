@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* AllyFire.cs
+* Assignment 6 - Factory Method
+* Ally with fire element type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

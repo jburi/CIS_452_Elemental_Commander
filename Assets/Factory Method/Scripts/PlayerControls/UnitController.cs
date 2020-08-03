@@ -1,5 +1,9 @@
-﻿
-//Controlls Movement, Animator, and assigning targets
+﻿/*
+* Jacob Buri
+* .cs
+* Assignment 6 - Factory Method
+* Controlls Unit movement, Animator, and assigning targets
+*/
 using UnityEngine;
 using UnityEngine.AI;
 

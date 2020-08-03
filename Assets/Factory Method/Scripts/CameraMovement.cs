@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* CameraMovement.cs
+* Assignment 6 - Factory Method
+* Pans and rotates the camera with the mouse
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

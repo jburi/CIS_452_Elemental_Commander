@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* .cs
+* Assignment 6 - Factory Method
+* Not Implemented - Handled in GameManager
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

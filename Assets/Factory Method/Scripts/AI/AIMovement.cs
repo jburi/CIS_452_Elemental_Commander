@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* AIMovement.cs
+* Assignment 6 - Factory Method
+* Combines the NavMeshAgent and Animator movement
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

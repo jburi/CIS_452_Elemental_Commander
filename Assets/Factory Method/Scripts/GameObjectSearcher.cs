@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* GameObjectSearcher.cs
+* Assignment 6 - Factory Method
+* Used to find child GameObject with a tag
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

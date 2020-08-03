@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* AllyGrass.cs
+* Assignment 6 - Factory Method
+* Ally with grass element type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

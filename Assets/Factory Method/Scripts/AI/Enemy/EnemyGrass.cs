@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* EnemyGrass.cs
+* Assignment 6 - Factory Method
+* Enemy with grass element type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

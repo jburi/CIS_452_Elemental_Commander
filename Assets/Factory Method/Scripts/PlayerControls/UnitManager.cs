@@ -1,4 +1,10 @@
-﻿using System.Collections.Generic;
+﻿/*
+* Jacob Buri
+* .cs
+* Assignment 6 - Factory Method
+* Selects Units and holds the player's control state
+*/
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 

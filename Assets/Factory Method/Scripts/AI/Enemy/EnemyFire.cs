@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* EnemyFire.cs
+* Assignment 6 - Factory Method
+* Enemy with fire element type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* AISpawner.cs
+* Assignment 6 - Factory Method
+* Spawns the AI based on the type and factory used
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;

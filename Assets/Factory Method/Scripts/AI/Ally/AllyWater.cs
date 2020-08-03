@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* AllyWater.cs
+* Assignment 6 - Factory Method
+* Ally with water element type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

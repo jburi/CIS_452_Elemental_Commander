@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* Projectile.cs
+* Assignment 6 - Factory Method
+* -- Not Implemented -- Used for ranged attacks
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

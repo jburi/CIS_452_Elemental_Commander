@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* ScreenHelper.cs
+* Assignment 6 - Factory Method
+* Used with UnitManager to display dragging select UI
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

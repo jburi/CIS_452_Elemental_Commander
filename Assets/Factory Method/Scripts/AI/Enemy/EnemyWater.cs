@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* Jacob Buri
+* EnemyWater.cs
+* Assignment 6 - Factory Method
+* Enemy with water element type
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
