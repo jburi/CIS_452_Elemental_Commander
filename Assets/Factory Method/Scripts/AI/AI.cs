@@ -96,17 +96,21 @@ public class AI : MonoBehaviour
             if(tag == "Player")
             {
                 GameManager.instance.PlayerHealth -= 5;
+                GameManager.instance.EnemyGold += 2;
                 GameManager.instance.aISpawner.currentAllies.Remove(gameObject);
                 GameManager.instance.gameObject.GetComponent<UnitManager>().selectedAI.Remove(gameObject.GetComponent<AI>());
             }
             else
             {
-                if(gameObject == GameManager.instance.aISpawner.lastSpawned)
+                //Remove the enemy from the list and then check for last spawned reference
+                GameManager.instance.aISpawner.currentEnemies.Remove(gameObject);
+                GameManager.instance.EnemyHealth -= 5;
+                GameManager.instance.PlayerGold += 2;
+
+                if (gameObject == GameManager.instance.aISpawner.lastSpawned)
                 {
                     GameManager.instance.aISpawner.lastSpawned = null;
                 }
-                GameManager.instance.EnemyHealth -= 5;
-                GameManager.instance.aISpawner.currentEnemies.Remove(gameObject);
             }
             Destroy(gameObject);
         }
@@ -204,6 +208,10 @@ public class AI : MonoBehaviour
                 {
                     thisEnemy.health -= 1;
                 }
+                else if (thisEnemy.element == "Fire")
+                {
+                    thisEnemy.health -= 2;
+                }
             }
             else if (element == ("Water"))
             {
@@ -214,6 +222,10 @@ public class AI : MonoBehaviour
                 else if (thisEnemy.element == "Grass")
                 {
                     thisEnemy.health -= 1;
+                }
+                else if (thisEnemy.element == "Water")
+                {
+                    thisEnemy.health -= 2;
                 }
             }
             else if (element == ("Grass"))
@@ -226,13 +238,13 @@ public class AI : MonoBehaviour
                 {
                     thisEnemy.health -= 1;
                 }
-            }
-            else
-            {
-                thisEnemy.health -= 2;
+                else if (thisEnemy.element == "Grass")
+                {
+                    thisEnemy.health -= 2;
+                }
             }
 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(2);
         }
     }
 

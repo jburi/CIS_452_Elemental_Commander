@@ -87,7 +87,7 @@ public class UnitController : MonoBehaviour
         // which affects the movement speed because of the root motion.
         if (isGrounded && velocity.magnitude > 0)
         {
-            anim.speed = 1.1f;
+            anim.speed = 1f;
         }
         else
         {

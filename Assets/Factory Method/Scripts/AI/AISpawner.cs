@@ -133,6 +133,7 @@ public class AISpawner : MonoBehaviour
     //Used in GameManager as Enemy Player
     public void SpawnEnemyAI()
     {
+        //Gold handled in GameManager
         AICreatorIsAlly = false;
         AITag = "EnemyUnit";
         GameObject newEnemyAI = SpawnAI();
@@ -142,9 +143,19 @@ public class AISpawner : MonoBehaviour
     //UI Button Control Methods
     public void SpawnAllyAI()
     {
-        AICreatorIsAlly = true;
-        AITag = "Player";
-        GameObject newAllyAI = SpawnAI();
+        if(GameManager.instance.PlayerGold >= 4)
+        {
+            AICreatorIsAlly = true;
+            AITag = "Player";
+            GameObject newAllyAI = SpawnAI();
+            //newAllyAI.GetComponent<NavMeshAgent>().speed = 40;
+            GameManager.instance.PlayerGold -= 5;
+        }
+        else
+        {
+            // -- TODO -- Add a pop-up for the player
+            Debug.Log("Player is out of Gold");
+        }
     }
 
     public void FireType()
