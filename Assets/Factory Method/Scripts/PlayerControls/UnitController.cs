@@ -11,7 +11,6 @@ public class UnitController : MonoBehaviour
 {
     private Animator anim;
     public NavMeshAgent navAgent;
-    LookAt lookAt;
 
     public bool isGrounded;
     public bool shouldMove = false;
@@ -26,7 +25,6 @@ public class UnitController : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         navAgent = gameObject.GetComponent<NavMeshAgent>();
-        lookAt = gameObject.GetComponent<LookAt>();
         groundCheck = gameObject.transform;
         groundMask = LayerMask.GetMask("Ground");
 

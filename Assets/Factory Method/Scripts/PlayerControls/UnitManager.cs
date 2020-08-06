@@ -141,6 +141,11 @@ public class UnitManager : MonoBehaviour
             HealState();
         }
 
+        if (Input.GetKeyDown("space"))
+        {
+            isDragging = false;
+        }
+
 
         //What to do in each state
         if (M_attackState)
